@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url('first-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:500px;
+    max-width: 100%;
+}
+
+.topbar{
+  display: inline;  
+  
+}
+
+.mt{
+    color:green;
+    font-size:32px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    margin-left: 80px;
+}
+.navbar{
+    display: flex;
+  float:right;
+  margin-right:80px;
+}
+
+li{
+    list-style: none;
+font-size: 16px;
+padding:0px 10px 0px 10px;
+
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    color:green;
+    transition: 0.5 ease-in-out;
+}
+a:visited{
+    color:pink;
+}
+
+#first-h2{
+    color:white;
+    margin-left:80px;
+    margin-top: 120px;
+    text-align: start;
+}
+#first-p{
+        color:white;
+        margin-left:80px;
+        margin-top:20px;
+        text-align: start;
+}
+.info{
+    margin-top: 20px;
+}
+.details{
+    margin-left: 80px;
+    display: block;
+    width:300px;
+    height:30px;
+    margin-top:10px;
+}
+#subscribe{
+    color:white;
+    font-size: 16px;
+    background-color: green;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+.container{
+    display:flex;
+}
+.box1{
+flex:1;
+
+}
+.box2{
+flex:1;
+}
+.box3{
+flex:1;
+}
+.second-p{
+    color:black;
+    margin:0;
+}
+img{
+    width:250px;
+    height:200px;
+}
+.box1,.box2,.box3{
+padding:50px;
+}
+h1{
+    font-size: 16px;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+.second-p,input{
+    margin-top: 10px;
+}
+.button{
+    cursor:pointer;
+    background-color:green;
+    border-radius: 4px;
+    color:white;
+    border: none;
+}
+.container2{
+  display:flex;  
+  background-color:#222;
+  background-size:cover;
+}
+.rh{
+    flex:1;
+    margin-left: 50px;
+    width:40%;
+    color:white;
+    margin-top: 40px;
+    
+    
+}
+.Au,.third-p{
+    margin:10px;
+    text-align: center;
+}
+.boxes-4{
+    flex:1;
+    display: flex;
+    width:40%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    
+    
+}
+.mini-box{
+border:2px solid black;
+width:180px;
+height:150px;
+margin-left: 60px;
+margin-top:10px;
+background-color:bisque;
+padding-top: 20px;
+padding-left:50px;
+}
+.mini-box>h1{
+    margin-top:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center-section{
+margin-top:40px;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+}
+.line-section{
+    height:2px;
+    width:60%;
+    color:black;
+    background-color: black;
+    margin:auto;
+    position:relative;
+    margin-top: 80px;
+}
+.line-section .c1,
+.line-section .c2,
+.line-section .c3{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+}
+.line-section .c1{
+    top:-8px;
+    left:120px;
+}
+.line-section .c2{
+    top:-8px;
+    left:50%;
+}
+.line-section .c3{
+    top:-8px;
+    left:80%;
+}
+.boxes-3{
+    display: flex;
+    margin-left:20% ;
+    margin-right: 40%;
+    margin-top: 60px;
+    
+}
+.box{
+    margin:100px;
+    flex:1;
+    
+}
+.box,h2,p{
+    text-align: end;
+    margin-top: 10px;
+}
+.change-color{
+    color:green;
+}
+.Remark-container{
+    display:flex;  
+  background-color:#222;
+  background-size:cover;
+  height:70vh;
+  justify-content: center;
+  
+}
+.Remark-box1,.Remark-box2{
+border: 1px solid black;
+margin:20px;
+margin-top: 70px;
+width:500px;
+height:300px;
+background-color: grey;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;;
+}
+.commentor1>img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.commentor2>img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text-content>h1{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.text-content>p{
+    line-height: 30px;
+    color:whitesmoke;
+}
+
+#textarea{
+    width:300px;
+    height:80px;
+}
+#contactus{
+   font-weight: bolder;
+   font-size: 30px;
+}
+.formsection{
+    align-content: center;
+}
